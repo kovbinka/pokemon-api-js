@@ -5,18 +5,21 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./css/index.css" />
-        <title>Pokemon API</title>
+        <link rel="stylesheet" href="./css/pokeball.css" />
+        <title>Pokemon</title>
     </head>
     <body>
         <div class="container">
             <h1>CHOOSE YOUR POKEMON!</h1>
+            <div class="poke"></div>
             <img src="public/pokewall.png" alt="wallpaper">
             <div>
                 <div>
-                    <input id="number" type="number" value="CHOOSE YOUR POKEMON!" min="1" />
+                    <input id="number" type="number" placeholder="CHOOSE HERE!" min="1" />
                     <button id= "catch">Get POKEMON!</button>
                 </div>
                 <div id="pokemon-info">
+                    <div id="poke-img"></div>
                 </div>
             </div>
         </div>
