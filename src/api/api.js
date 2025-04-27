@@ -12,3 +12,5 @@ async function fetchPokemon(id) {
         throw new Error(`Failed to fetch Pokemon: ${error.message}`);
     }
 }
+
+export default fetchPokemon;
